@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
+  font-family: Verdana;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#kartyak {
+  width: 100%;    
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kartya {
+  width: 272px;
+  margin: 5px;
+  padding: 15px;   
+  background-color: rgba(255,255,255,.5);  
+  border-width: 5px;
+  border-color: white;
+  border-style: solid; 
+  border-radius: 30px; 
+}
+
+.kartya img {
+  width: 272px;
+  height: 340px;  
+  border-radius: 15px;
 }
